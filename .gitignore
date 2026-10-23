@@ -1,0 +1,11 @@
+cat > .gitignore <<'EOF'
+# Generated GitHub Pages deployment files
+_site/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+EOF

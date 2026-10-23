@@ -1,0 +1,42 @@
+[
+  {
+    "id": "food-and-drink",
+    "name": "Food & Drink",
+    "icon": "utensils"
+  },
+  {
+    "id": "shopping",
+    "name": "Shopping",
+    "icon": "shopping-bag"
+  },
+  {
+    "id": "professional-services",
+    "name": "Professional Services",
+    "icon": "briefcase-business"
+  },
+  {
+    "id": "beauty-and-wellness",
+    "name": "Beauty & Wellness",
+    "icon": "heart"
+  },
+  {
+    "id": "automotive",
+    "name": "Automotive",
+    "icon": "car"
+  },
+  {
+    "id": "arts-and-entertainment",
+    "name": "Arts & Entertainment",
+    "icon": "music"
+  },
+  {
+    "id": "events",
+    "name": "Events",
+    "icon": "calendar"
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "icon": "grid"
+  }
+]
