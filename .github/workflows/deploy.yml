@@ -38,6 +38,11 @@ jobs:
       - name: Run deployment checks
         run: bash deploy.sh
 
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
   deploy:
     name: Publish GitHub Pages
     needs: check
@@ -54,17 +59,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload website
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
